@@ -1,7 +1,6 @@
 # Oculus VNC © Client
-- RFB protocol for Linux(/macOS)
+- Remote desktop client using RFB protocol for Linux(/macOS)
 - VNC and RFB are trademarks of RealVNC Limited.
-- apk file coming soon
 ## How to install
 - Download `build.apk` from [github release page][https://github.com/jwechrs/virtual-rd/releases] or from [SideQuesst][https://sidequestvr.com/app/1123/vrd].
 - Install `adb`. See [android document][https://developer.android.com/studio/command-line/adb?hl=ja] for more detail.
@@ -14,4 +13,6 @@
 
 ## Supported operations
 - Screen display
-- Pointer control using oculus controller
+- Pointer control using Oculus controller
+## Currently not supported
+- Scroll using touchpad on Oculus Controll
