@@ -6,8 +6,9 @@
 - Install `adb`. See [android document][https://developer.android.com/studio/command-line/adb?hl=ja] for more detail.
 - Install by running `adb install build.apk`
 - Start VNC server on your computer. 
-- (Optional) If you wish to connect to your computer over USB, you can use `adb reverse` command.
-### example (when VNC is running on port 5900)
+- Access your VNC server by specifying host/port.
+### (Optional) If you wish to connect to your computer over USB, you can use `adb reverse` command.
+Example:
 - `adb reverse tcp:5900 tcp:5900`
 - Access host name: `127.0.0.1`, port: 5900 from VRD.
 
