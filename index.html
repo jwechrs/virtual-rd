@@ -2,9 +2,55 @@
 <html>
     <head>
         <title>VRD - Virtual desktop for Linux/macOS</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+        <style type="text/css"><!--
+         .demobackground{background:url(demo1.png) center no-repeat;}-->
+        </style>
     </head>
-    <main>
-        <h1> Github page
-        </h1>
-    </main>
+    <body>
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">VRD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="apps.html">Other apps from this developer</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="col-md-8" style="margin-top:50px;margin-bottom:20px; font-family: 'Open Sans',sans-serif;font-weight:bold;"> VRD (Virtual Remote Desktop)
+        </h3>
+        <p class="col-md-12", style="font-family: 'Open Sans', sans-serif; font-weight:regular;"> VR desktop for VNC users. This application is tested on Oculus go with the following VNC servers:
+        </p>
+        <div class="entry-content col-md-12">
+            <p>&#9642; TigerVNC on Ubuntu 18.04</p>
+            <p>&#9642; macOS Build-in screen sharing (Setting app>Sharing>screen Sharing)</p>
+        </div>
+
+        <h3 class="col-md-12" style="margin-top:50px; margin-bottom:20px; font-family: 'Open Sans', sans-serif; font-weight: bold;">Usage</h3>
+        <div class="entry-content col-md-12">
+            <p>&#9642; Download apk from <a href="https://sidequestvr.com/app/1123/vrd" >Sidequest</a> or from <a href="https://github.com/jwechrs/virtual-rd/releases">Github</a> </p>
+            <p>&#9642; Install the application to Oculus device by running "adb install /path/to/build.apk"</p>
+            <p>&#9642; Start VNC server on your PC</p>
+            <p>&#9642; From Oculus device, go to "unknown sources" page and start VRD</p>
+            <p>&#9642; Access your host name / port of a VNC server</p>
+        </div>
+
+        <img src="demo1.png" class="img-fluid" alt="Demo sample image"/>
+    </body>
 </html>

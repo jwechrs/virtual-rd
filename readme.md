@@ -36,3 +36,5 @@ Example:
 
 -   Scroll using touchpad on Oculus Controll
 
+## Project page
+[Github project page](https://jwechrs.github.io/virtual-rd/)
