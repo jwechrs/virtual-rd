@@ -15,3 +15,5 @@
 ## Supported operations
 - Screen display
 - Pointer control using oculus controller
+## Project page
+[Github project page](https://jwechrs.github.io/virtual-rd/)
