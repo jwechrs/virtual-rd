@@ -1,5 +1,5 @@
 
-# Oculus VNC © Client
+# Oculus VNC Client
 
 -   Remote desktop client using RFB protocol for Linux(/macOS)
 -   VNC and RFB are trademarks of RealVNC Limited.
@@ -8,7 +8,7 @@
 
 ## How to install
 
--   Download \`build.apk\` from [github release page](https://github.com/jwechrs/virtual-rd/releases)or from [SideQuesst](https://sidequestvr.com/app/1123/vrd).
+-   Download \`build.apk\` from [github release page](https://github.com/jwechrs/virtual-rd/releases) or from [SideQuesst](https://sidequestvr.com/app/1123/vrd).
 -   Install \`adb\`. See [android document](https://developer.android.com/studio/command-line/adb?hl=ja) for more detail.
 -   Install by running \`adb install build.apk\`
 -   Start VNC server on your computer.
@@ -35,6 +35,7 @@ Example:
 ## Currently not supported
 
 -   Scroll using touchpad on Oculus Controll
+
 
 ## Project page
 [Github project page](https://jwechrs.github.io/virtual-rd/)
