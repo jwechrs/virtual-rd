@@ -1,0 +1,22 @@
+p, h2, a{
+    font-family: 'Open Sans', sans-serif
+}
+a.navbar-brand {
+    font-weight: bold
+}
+div.feature-grid {
+    background-color: #ffff00;
+    height: 70px;
+}
+.list-background {
+    background-color: #FAFAFA;
+}
+.release-note-background{
+    background-color: #ecf0f1;
+}
+.release-note-background, .release-note-header {
+    color: #0984e3;
+}
+.release-note-header {
+    font-weight: bold;
+}

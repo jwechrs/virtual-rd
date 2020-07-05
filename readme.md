@@ -29,12 +29,7 @@ Example:
 
 -   Screen display
 -   Pointer control using Oculus controller
-
-
-
-## Currently not supported
-
--   Scroll using touchpad on Oculus Controll
+-   Scroll using touchpad on Oculus Controller
 
 
 ## Project page
