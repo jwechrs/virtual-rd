@@ -4,7 +4,9 @@
 -   Remote desktop client using RFB protocol for Linux(/macOS)
 -   VNC and RFB are trademarks of RealVNC Limited.
 
-
+<div style="text-align: center;">
+<a href="https://jwechrs.github.io/virtual-rd/">Document page</a>
+</div>
 
 ## How to install
 
@@ -30,7 +32,3 @@ Example:
 -   Screen display
 -   Pointer control using Oculus controller
 -   Scroll using touchpad on Oculus Controller
-
-
-## Project page
-[Github project page](https://jwechrs.github.io/virtual-rd/)
