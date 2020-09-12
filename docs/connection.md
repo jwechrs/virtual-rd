@@ -16,6 +16,8 @@ You can use `adb reverse` command to establish the VNC connection over the USB w
 
 **NOTE**: Using "localhost" as a host name may cause `SocketException`. Please use `127.0.0.1` instead.
 
+**NOTE**: See [this page](https://github.com/jwechrs/virtual-rd/issues/1#issuecomment-685877871) on how to set up `adb` command for raspberry pi.
+
 ## Pointer control
 - Trigger index button on the oculus controller is mapped to left click event.
 - The touchpad scroll on the oculus controller is mapped to the scroll wheel event.

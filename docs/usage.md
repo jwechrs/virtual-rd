@@ -7,4 +7,5 @@
 5. Access your host name / port of a VNC server.
    1. example: host name=192.168.0.2, port=5900
 
+
 **NOTE:** C# TcpClient module appears to reject string host names such as `localhost`. Using integer host names (e.g. 127.0.0.1) is recommended.

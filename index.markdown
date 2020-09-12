@@ -5,7 +5,7 @@
 layout: home
 ---
 <!--   <\!-- CSS only -\-> -->
-  
+
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
@@ -17,10 +17,14 @@ layout: home
 
 VR desktop for VNC users. With VNC server of your choice, you can see the screen, control the pointer and page scrolling.
 
+## Release note
+- Added VNC connection history feature.
+- **NOTE** This feature is still buggy and may not be secure enough. Use at your own risk, particularly for "remember password" feature.
+
 [Download from SideQuest](https://sidequestvr.com/app/1123/vrd){: .btn .btn-blue}
 
 <img src="demo1.png" class="img-fluid" alt="Demo sample image"/>
- 
+
 
 <!-- <div class="col-md-12 p-3 release-note-background"> -->
 <!--     <p class="col-md-12 release-note-header"> Release note (v0.2.1)</p> -->
