@@ -32,3 +32,17 @@ Example:
 -   Screen display
 -   Pointer control using Oculus controller
 -   Scroll using touchpad on Oculus Controller
+
+
+## Project page
+[Github project page](https://jwechrs.github.io/virtual-rd/)
+
+## VRD-core
+This directory contains the bare-bone VRD unity project.
+### Requirements
+- Oculus Integration (from unity assets store)
+- Oculus toolkit OVRInputSelection (from [this documentation](https://developer.oculus.com/blog/easy-controller-selection/)). Please follow the documentation to attach necessary scripts to OVRCameraRig etc.
+They are licensed under the [Oculus SDK License Agreement](http://www.oculusvr.com/licenses/)(Copyright © Facebook Technologies, LLC and its affiliates. All rights reserved).
+
+`VRD-core/Assets/Scripts` is licensed under the MIT license.
+
