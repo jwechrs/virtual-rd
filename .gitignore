@@ -3,3 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+VRD-core/Library
+VRD-core/Build
+VRD-core/Temp
+VRD-core/Packages
+VRD-core/Assets/Oculus
+VRD-core/Assets/OVRInputSelection
+**/*.meta
